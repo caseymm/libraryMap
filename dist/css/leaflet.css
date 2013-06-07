@@ -1,5 +1,7 @@
 /* required styles */
 
+#map { height: 600px; width: 600px; }
+
 .leaflet-map-pane,
 .leaflet-tile,
 .leaflet-marker-icon,
@@ -287,7 +289,7 @@
 	        border-radius: 8px;
 	}
 .leaflet-control-layers-toggle {
-	background-image: url(images/layers.png);
+	background-image: url(../images/layers.png);
 	width: 36px;
 	height: 36px;
 	}
@@ -302,6 +304,7 @@
 .leaflet-control-layers-expanded .leaflet-control-layers-list {
 	display: block;
 	position: relative;
+
 	}
 .leaflet-control-layers-expanded {
 	padding: 6px 10px 6px 6px;
